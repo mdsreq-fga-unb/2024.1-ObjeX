@@ -1,0 +1,13 @@
+## Organização do Projeto
+
+| Papel | Atribuições | Responsável | Participantes
+|-------                    |-------------              |-------------  |--------------
+| Desenvolvedor             | ...                       | ...           | ...
+| Dono do Projeto           | ...                       | ...           | ...
+| Análista de Qualidade     | ...                       | ...           | ...
+| Cliente                   | Henrique Gomes de Moura   | ...           | ... 
+
+## Planejamento das Fases e/ou Iterações do Projeto
+
+| Sprint | Produto (Entrega) | Data Início | Data Fim
+|--------|-------------------|-------------|---------

@@ -1,0 +1,59 @@
+site_name: ObjeX
+extra_css:
+  - stylesheets/extra.css
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pt
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/mdsreq-fga-unb/2024.1-ObjeX
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
+
+
+
+nav:
+  - História da Facção: index.md
+  - Visão Geral do Produto: Visão Geral do Produto.md
+  - Processo de Desenvolvimento de Software: Processo De Desenvolvimento de Software.md
+  - Visão Geral do Projeto: Visão Geral do Projeto.md
+  - Vídeo Missão 1: entrega_missao1.md
+
+copyright: |
+  REQ-2024.1 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">CyberHunterz</a>

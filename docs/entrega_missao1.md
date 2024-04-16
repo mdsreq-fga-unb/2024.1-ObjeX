@@ -1,0 +1,1 @@
+<iframe width="1903" height="788" src="https://www.youtube.com/embed/fPO76Jlnz6c" title="Coolio - Gangsta&#39;s Paradise (feat. L.V.) [Videoclipe]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
