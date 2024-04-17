@@ -63,7 +63,7 @@
 
 ## Critérios de Replanejamento 
 
-* Tempo disponível: Durante o desenvolvimento do projeto, podemos enfrentar atrasos significativos em relação ao cronograma inicialmente estabelecido. Se esses atrasos impactarem negativamente o progresso do desenvolvimento, será necessário realizar um replanejamento para garantir que o jogo esteja pronto dentro dos prazos definidos.
+* Tempo disponível: Durante o desenvolvimento do projeto, podemos enfrentar atrasos significativos em relação ao cronograma inicialmente estabelecido. Se esses atrasos impactarem negativamente o progresso do desenvolvimento, será necessário realizar um replanejamento para garantir que o projeto esteja pronto dentro dos prazos definidos.
 
 * Feedback: Caso o cliente manifeste insatisfação com o produto, será necessário realizar uma revisão no projeto e, se viável, um replanejamento das funcionalidades.
 
