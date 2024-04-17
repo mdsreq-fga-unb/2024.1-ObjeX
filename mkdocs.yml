@@ -1,4 +1,13 @@
+# Project information:
 site_name: ObjeX
+# site_url: https://
+
+
+# Repository:
+repo_name: 2024.1-ObjeX
+repo_url: https://github.com/mdsreq-fga-unb/2024.1-ObjeX
+
+
 extra_css:
   - stylesheets/extra.css
 theme:
@@ -6,24 +15,35 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - announce.dismiss
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - search.share
+    - toc.follow
   language: pt
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: custom
-      
+      accent: green
+  font:
+    text: Roboto
+    code: Roboto Mono
+
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/mdsreq-fga-unb/2024.1-ObjeX
+
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -46,14 +66,20 @@ markdown_extensions:
           - overrides/.icons
 
 
-
-
 nav:
   - História da Facção: index.md
-  - Visão Geral do Produto: Visão Geral do Produto.md
+  - Visão Geral do Produto:
+    - Problema: produto-problema.md
+    - Declaração de Posição do Produto: produto-posicao.md
+    - Objetivos do Produto: produto-objetivos.md
+    - Tecnologias a Serem Utilizadas: produto-tecnologias.md
   - Processo de Desenvolvimento de Software: Processo De Desenvolvimento de Software.md
   - Visão Geral do Projeto: Visão Geral do Projeto.md
-  - Vídeo Missão 1: entrega_missao1.md
+  - Missão 1: 
+    - Lições Aprendidas: licoes-missao1.md
+    - Vídeo de Apresentação: entrega_missao1.md
+    - Missão 1: missao1.md
+
 
 copyright: |
-  REQ-2024.1 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">CyberHunterz</a>
+  REQ-2024.1 <a href="https://github.com/mdsreq-fga-unb/2024.1-ObjeX"  target="_blank" rel="noopener">CyberHunterz</a>

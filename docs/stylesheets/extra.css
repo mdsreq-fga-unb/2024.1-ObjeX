@@ -3,3 +3,13 @@
     --md-primary-fg-color--light: #d87375;
     --md-primary-fg-color--dark:  #971012;
   }
+
+@font-face { /* Importando fonte */
+  font-family: "Cyberpunk";
+  src: url("/font/Cyberpunk/Cyberpunk.ttf") format('truetype');
+}
+
+.classe-titulo {
+  font-family: 'Cyberpunk', "Cyberpunk";
+  font-size: 32px;
+}

@@ -1,4 +1,6 @@
-## Objetivos do produto
+# Visão Geral do Produto
+
+## **Objetivos do Produto**
 
 Nosso objetivo é desenvolver uma plataforma abrangente que otimize o desempenho organizacional dos alunos e facilite a interação eficaz entre professores e estudantes no ambiente acadêmico. Para alcançar esse objetivo, nossa plataforma será projetada para: 
 
@@ -16,4 +18,4 @@ Nosso objetivo é desenvolver uma plataforma abrangente que otimize o desempenho
 
 * Criar uma página dedicada à apresentação e compartilhamento dos trabalhos finais da disciplina, oferecendo um espaço centralizado para avaliação e reconhecimento dos projetos desenvolvidos pelos alunos. 
 
-* Com essas funcionalidades, buscamos promover a eficiência acadêmica e facilitar a interação dinâmica entre professores e alunos, enriquecendo significativamente o processo educacional.
+Com essas funcionalidades, buscamos promover a eficiência acadêmica e facilitar a interação dinâmica entre professores e alunos, enriquecendo significativamente o processo educacional.
