@@ -1,6 +1,6 @@
 ![Brasão CyberHunterz](assets/menor.png){: style="height:750px"}
 
-## CyberHunterz
+## <span class="classe-titulo">**CyberHunterz**</span>
 
 Kairos e Shin já se conheciam, pois eram do mesmo planeta e testemunharam de perto os efeitos da corrupção que empobrecia seu mundo. Incapazes de mudar a situação, decidiram partir na esperança de evitar que outros planetas sofressem nas mãos de grandes conglomerados. Foi durante uma missão que encontraram Vincent.
 
