@@ -11,6 +11,7 @@ repo_url: https://github.com/mdsreq-fga-unb/2024.1-ObjeX
 extra_css:
   - stylesheets/extra.css
 theme:
+  custom_dir: overrides
   logo: assets/logo1.png
   favicon: assets/logo1.png
   name: material
