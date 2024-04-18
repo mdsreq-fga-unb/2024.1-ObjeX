@@ -4,7 +4,7 @@ Considerando que nossa ferramenta será uma peça fundamental no ambiente de tra
 
 Dada a restrição de tempo e a necessidade de adaptação rápida às demandas e preferências do cliente, a abordagem Ágil emerge como a escolha mais apropriada. Essa metodologia nos permite ser flexíveis e ágeis na entrega de valor, ajustando-nos de maneira eficaz às mudanças e às especificidades do projeto. 
 
-![Abordagem Agil](assets/agile.png){: style="height:300px;"}
+![Abordagem Agil](assets/agile.png){: style="height:auto", width="100%"}
 
 ## Ciclo de Vida: Ágil (Iterativo e Incremental) 
 
@@ -28,7 +28,7 @@ o ScrumXP é uma abordagem que combina a gestão de projeto do Scrum com as prá
 
 * Práticas de Testes Integradas: No ScrumXP, os testes são incorporados desde o início do desenvolvimento. A metodologia promove o desenvolvimento orientado por testes (TDD - Test-Driven Development), onde os testes são escritos antes da implementação do código. Isso garante que cada incremento de funcionalidade seja acompanhado por testes automatizados que validam seu comportamento esperado.
 
-![Srum](assets/scrum.jpg){: style="height:300px;"}
+![Srum](assets/scrum.jpg){: style="height:auto", width="100%"}
 
 
 | Nome da Atividade         | Método                 | Ferramentas            | Entrega
