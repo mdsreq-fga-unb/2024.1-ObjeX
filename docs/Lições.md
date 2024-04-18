@@ -1,5 +1,3 @@
-## Missão 1 
-
 Durante a nossa primeira tarefa, a equipe teve a oportunidade de adquirir várias lições significativas. Encontramos alguns obstáculos devido a conflitos de horários entre os membros da equipe, mas todos se mostraram dispostos a contribuir quando podiam.
 
 A maior dificuldade que o grupo enfrentou foi em relação à documentação do projeto. Isso nos levou a gastar um tempo considerável em reuniões, pois havia muitas dúvidas e opiniões diferentes a serem consideradas. A complexidade da documentação exigiu que todos os membros da equipe estivessem na mesma página, o que se mostrou um desafio. No entanto, a equipe se mostrou resiliente e disposta a superar esses obstáculos.

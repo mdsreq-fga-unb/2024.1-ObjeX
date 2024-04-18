@@ -6,10 +6,10 @@
 
 @font-face { /* Importando fonte */
   font-family: "Cyberpunk";
-  src: url("/font/Cyberpunk/Cyberpunk.ttf") format('truetype');
+  src: url("/font/Cyberpunk/Cyberpunk.ttf");
 }
 
 .classe-titulo {
-  font-family: 'Cyberpunk', "Cyberpunk";
+  font-family: "Cyberpunk","roboto";
   font-size: 32px;
 }

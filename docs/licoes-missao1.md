@@ -1,1 +1,0 @@
-# Lições Aprendidas da Missão 1

@@ -11,6 +11,9 @@ repo_url: https://github.com/mdsreq-fga-unb/2024.1-ObjeX
 extra_css:
   - stylesheets/extra.css
 theme:
+  custom_dir: overrides
+  logo: assets/logo1.png
+  favicon: assets/logo1.png
   name: material
   features:
     - navigation.tabs
@@ -75,11 +78,9 @@ nav:
     - Tecnologias a Serem Utilizadas: produto-tecnologias.md
   - Processo de Desenvolvimento de Software: Processo De Desenvolvimento de Software.md
   - Visão Geral do Projeto: Visão Geral do Projeto.md
-  - Vídeo Missão 1: entrega_missao1.md
-  - Missão 1: 
-    - Lições Aprendidas: licoes-missao1.md
-    - Vídeo de Apresentação: entrega_missao1.md
-    - Missão 1: missao1.md
+  - Missão 1:
+    - Entregas: entrega_missao1.md
+    - Lições Aprendidas: Lições.md
 
 copyright: |
   REQ-2024.1 <a href="https://github.com/mdsreq-fga-unb/2024.1-ObjeX"  target="_blank" rel="noopener">CyberHunterz</a>
