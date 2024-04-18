@@ -6,7 +6,7 @@
 
 @font-face { /* Importando fonte */
   font-family: "Cyberpunk";
-  src: url("/font/Cyberpunk/Cyberpunk.ttf");
+  src: url("/assets/fonts/Cyberpunk/Cyberpunk.ttf");
 }
 
 .classe-titulo {

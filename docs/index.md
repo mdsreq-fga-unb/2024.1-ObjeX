@@ -1,4 +1,4 @@
-![Brasão CyberHunterz](assets/menor.png){: style="height:750px"}
+![Brasão CyberHunterz](assets/menor.png){: style="height:auto", width="100%"}
 
 ## <span class="classe-titulo">**CyberHunterz**</span>
 

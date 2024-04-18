@@ -76,11 +76,11 @@ nav:
     - Declaração de Posição do Produto: produto-posicao.md
     - Objetivos do Produto: produto-objetivos.md
     - Tecnologias a Serem Utilizadas: produto-tecnologias.md
-  - Processo de Desenvolvimento de Software: Processo De Desenvolvimento de Software.md
-  - Visão Geral do Projeto: Visão Geral do Projeto.md
+  - Processo de Desenvolvimento de Software: processo-desenvolvimento.md
+  - Visão Geral do Projeto: projeto-visao.md
   - Missão 1:
-    - Entregas: entrega_missao1.md
-    - Lições Aprendidas: Lições.md
+    - Entregas: entrega-missao1.md
+    - Lições Aprendidas: licoes-missao1.md
 
 copyright: |
   REQ-2024.1 <a href="https://github.com/mdsreq-fga-unb/2024.1-ObjeX"  target="_blank" rel="noopener">CyberHunterz</a>
