@@ -2,10 +2,14 @@
 
 ## **Tecnologias a Serem Utilizadas**
 
-- API – Django RestFramework  
+<p>API</p>
+[![Tecnologias](https://skillicons.dev/icons?i=django,python)](https://skillicons.dev)
 
-- Banco de dados – MongoDB ou Postgres 
+<p>Banco de dados</p>
+[![Tecnologias](https://skillicons.dev/icons?i=postgres,mongodb)](https://skillicons.dev)
 
-- Front – React
+<p style="font-size=20px;">FrontEnd - React</p>
+[![Tecnologias](https://skillicons.dev/icons?i=js,react)](https://skillicons.dev)
+
 
 <!-- TODO melhorar colocando dentro de uma tabela com icones ou imagens que representem a tecnologia -->
