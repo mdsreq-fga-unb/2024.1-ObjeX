@@ -2,7 +2,7 @@
 
 ## **Problema**
 
-O Professor Henrique Gomes de Moura, responsável pela disciplina de Orientação a Objetos, enfrenta desafios significativos ao ministrar sua disciplina devido a duas questões iniciais: 
+O Professor da disciplina de Orientação a Objetos enfrenta desafios significativos ao ministrar sua disciplina devido a duas questões iniciais: 
 
 Dificuldade na formação de grupos: 
 
