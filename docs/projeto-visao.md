@@ -33,7 +33,7 @@
 
 * <a href="https://drive.google.com/file/d/1Y1mzUh2TQNFWPnCP5BPORejCx5u3jP2D/view?usp=sharing">Reunião 28/03/2024</a>
 
-## Relatório de tarefas
+## Relatório de tarefas - Daily
 * <a>Relatório de tarefas 02/04/2024</a>
 * <a>Relatório de tarefas 06/04/2024</a>
 * <a>Relatório de tarefas 10/04/2024</a>
