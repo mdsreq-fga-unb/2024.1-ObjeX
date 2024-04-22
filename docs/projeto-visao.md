@@ -7,23 +7,18 @@
 | Dono do Projeto           | Atualizar o escopo do produto, organizar o escopo das sprints, validar as entrega                       | Gustavo            | Caio,  Nicollas e Gustavo 
 | Engenheiro de Requisitos  | Elicitação e descoberta, Análise e Consenso, Comunicar Requisitos ao cliente, Representação, Verificação e Validação, Organização e Atualização                     | Manoel            | Gustavo, Caio, Arthur, Nicollas, Rayene, Manoel e Fabricio 
 | Análista de Qualidade     | Garantir a qualidade do produto, garantir o cumprimento do conceito de pronto, realizar inspeções de código                        | Arthur            | Rayene, Manoel e Arthur 
-| Cliente                   | Comunicar as expectativas para o projeto, incluindo especificações técnicas e funcionalidades desejadas. Além de realizar a revisão e aceitação das entregas do projeto.    | Prof. Henrique Gomes de Moura            | Prof. Henrique Gomes de Moura 
+| Cliente                   | Comunicar as expectativas para o projeto, incluindo especificações técnicas e funcionalidades desejadas. Além de realizar a revisão e aceitação das entregas do projeto.    | Prof. da Disciplina de Orientação a Objetos            | Prof. da Disciplina de Orientação a Objetos 
 
 ## Planejamento das Fases e/ou Iterações do Projeto
 
-| Sprint  | Produto (Entrega)                                                  | Data Início | Data Fim   |
-|---------|----------------------------------------------------------------------|-------------|------------|
-| Sprint 1| Visão Geral do Produto, Definição de Abordagem, Ciclo de Vida e Processo de Desenvolvimento, Organização do Projeto, Tecnologias, Planejamento | 02/04/2024 | 18/04/2024 |
-| **Entrega**  | Documentação | |
-| Sprint 2| MVP e Planejamento do Projeto, Definição das US, Backlog do produto. | 25/04/2024 | 09/05/2024 |
-| **Entrega**  | Documentação, Backlog, Us, MVP | |
-| Sprint 3| Protótipos, Módulo de autenticação e criação de Usuários, Módulo de grupos. | 09/05/2024 | 23/05/2024 |
-| **Entrega**  | Módulo de Autenticação, Criaçao de usuarios e Módulo de grupos | |
-| Sprint 4| Protótipos, Formular Gamificação, Módulo de Atividades.             | 23/05/2024 | 06/06/2024 |
-| **Entrega**  | Gamificação, Módulo de atividades | |
-| Sprint 5| Protótipos, Módulo de correção.                                     | 06/06/2024 | 20/06/2024 |
-| **Entrega**  | Documentação | |
-| Sprint 6| Protótipos.                                                         | 06/06/2024 | 20/06/2024 |
+| Sprint  | Atividades                                                  | **Entrega** |  Data Início | Data Fim   |
+|---------|----------------------------------------------------------------------|-------------|------------| --------- |
+| Sprint 1| Visão Geral do Produto, Definição de Abordagem, Ciclo de Vida e Processo de Desenvolvimento, Organização do Projeto, Tecnologias, Planejamento | Entrega da Missão 1, Gitpages, Visão Geral do Produto, Processo de Desenvolvimento de Software, Visão Geral do Projeto. | 02/04/2024 | 18/04/2024 | 
+| Sprint 2| MVP e Planejamento do Projeto, Definição das US, Backlog do produto. | Backlog, US's, MVP, Requisitos Funcionais e Não Funcionais. | 25/04/2024 | 09/05/2024 |
+| Sprint 3| Protótipos, Desenvolvimento de Testes, Módulo de autenticação e criação de Usuários, Módulo de grupos. | Entrega Missão 2, Módulo de Autenticação, Criaçao de usuarios e Módulo de grupos. | 09/05/2024 | 23/05/2024 |
+| Sprint 4| Protótipos, Desenvolvimento de Testes, Formular Gamificação, Módulo de Atividades.             | Gamificação, Módulo de atividades. |  23/05/2024 | 06/06/2024 |
+| Sprint 5| Entrega Missão 3, Protótipos, Desenvolvimento de Testes, Módulo de correção.                                     | Módulo de correção. |  06/06/2024 | 20/06/2024 |
+| Sprint 6| Correções, Elementos fora do MVP (caso haja tempo), Refatorações (se necessário).                                                         | Entrega Missão 4, Entrega do Produto Final. |  20/06/2024 | 04/07/2024 |
 
 ## Matriz de Comunicação 
 
