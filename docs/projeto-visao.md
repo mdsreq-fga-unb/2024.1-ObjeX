@@ -14,10 +14,15 @@
 | Sprint  | Produto (Entrega)                                                  | Data Início | Data Fim   |
 |---------|----------------------------------------------------------------------|-------------|------------|
 | Sprint 1| Visão Geral do Produto, Definição de Abordagem, Ciclo de Vida e Processo de Desenvolvimento, Organização do Projeto, Tecnologias, Planejamento | 02/04/2024 | 18/04/2024 |
+| **Entrega**  | Documentação | |
 | Sprint 2| MVP e Planejamento do Projeto, Definição das US, Backlog do produto. | 25/04/2024 | 09/05/2024 |
+| **Entrega**  | Documentação | |
 | Sprint 3| Protótipos, Módulo de autenticação e criação de Usuários, Módulo de grupos. | 09/05/2024 | 23/05/2024 |
+| **Entrega**  | Documentação | |
 | Sprint 4| Protótipos, Formular Gamificação, Módulo de Atividades.             | 23/05/2024 | 06/06/2024 |
+| **Entrega**  | Documentação | |
 | Sprint 5| Protótipos, Módulo de correção.                                     | 06/06/2024 | 20/06/2024 |
+| **Entrega**  | Documentação | |
 | Sprint 6| Protótipos.                                                         | 06/06/2024 | 20/06/2024 |
 
 ## Matriz de Comunicação 
@@ -31,14 +36,17 @@
 
 ## Atas de reuniões
 
-* <a href="https://drive.google.com/file/d/1Y1mzUh2TQNFWPnCP5BPORejCx5u3jP2D/view?usp=sharing">Reunião 28/03/2024</a>
+* <a href="https://unbbr-my.sharepoint.com/personal/211061814_aluno_unb_br/Documents/Ata%20Reuni%C3%A3o%2028_03.pdf?login_hint=211061814%40aluno.unb.br">Reunião 28/03/2024</a>
 
 ## Relatório de tarefas - Daily
-* <a>Relatório de tarefas 02/04/2024</a>
-* <a>Relatório de tarefas 06/04/2024</a>
-* <a>Relatório de tarefas 10/04/2024</a>
-* <a>Relatório de tarefas 17/04/2024</a>
+* <a href="https://unbbr-my.sharepoint.com/:w:/g/personal/211061814_aluno_unb_br/EbDWpwwk2OZFiQse9vZpHNgBV0bsgB3ztflFD9xeI75LXQ?e=2yzMfa">Relatório de tarefas 02/04/2024</a>
+* <a href="https://unbbr-my.sharepoint.com/:w:/g/personal/211061814_aluno_unb_br/EUQ0BKRs5T5Hpjz4FjZC7akBUw_nboX6kW0G4csJ7c35dA?e=yiRdYO">Relatório de tarefas 06/04/2024</a>
+* <a href="https://unbbr-my.sharepoint.com/:w:/g/personal/211061814_aluno_unb_br/ERZctfGlsKJCsUF3AYVrfXABIIbJBZwiJq2QvLP7a7NmoQ?e=yjReOn">Relatório de tarefas 10/04/2024</a>
+* <a href="https://unbbr-my.sharepoint.com/:w:/g/personal/211061814_aluno_unb_br/EdRTmlzxD6ZAoV44UByRjUQBdVmIRgFqYg5CjVD816iBEA?e=AWoeOt">Relatório de tarefas 17/04/2024</a>
 
+## Relatório de Situação do projeto
+
+* <a>A fazer</a>
 
 ## Gerenciamento de Riscos
 
