@@ -22,12 +22,22 @@
 
 ## Matriz de Comunicação 
 
-| Descrição                                       | Área/Envolvidos | Periodicidade | Produtos Gerados                    |
-|-------------------------------------------------|-----------------|---------------|-------------------------------------|
-| Acompanhamento das Atividades em Andamento / Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores                                 | Equipe          | Quinzenal     | Ata de reunião , Relatório de situação do projeto                    |
-|           Reunião “Daily”                                         |       Equipe           |          Diária     | Relatório de tarefas a serem realizadas no dia.                     |
-| Comunicar situação do projeto  | Equipe, Professor    | Semanal         | Ata de reunião e  Relatório de Situação do Projeto              |
-| Reunião com o cliente                            | Equipe, Cliente | Semanal       | Ata de reunião, Relatório de Situação do Projeto, Homologação, Feedback, Relatório do projeto  |
+| Descrição                                       | Área/Envolvidos     | Periodicidade | Produtos Gerados                    |
+|-------------------------------------------------|-----------------    |---------------|-------------------------------------|
+| Acompanhamento das Atividades em Andamento / Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores                                       | Equipe, Líder Estelar               | Quinzenal        | Ata de reunião , Relatório de situação do projeto                    |
+|           Reunião “Daily”                       | Equipe               | Diária           | Relatório de tarefas a serem realizadas no dia.                     |
+| Comunicar situação do projeto                   | Equipe, Professor, Líder Estelar    | Semanal          | Ata de reunião e  Relatório de Situação do Projeto              |
+| Reunião com o cliente                           | Equipe, Cliente      | Semanal          | Ata de reunião, Relatório de Situação do Projeto, Homologação, Feedback, Relatório do projeto  |
+
+## Atas de reuniões
+
+* <a href="https://drive.google.com/file/d/1Y1mzUh2TQNFWPnCP5BPORejCx5u3jP2D/view?usp=sharing">Reunião 28/03/2024</a>
+
+## Relatório de tarefas
+* <a>Relatório de tarefas 02/04/2024</a>
+* <a>Relatório de tarefas 06/04/2024</a>
+* <a>Relatório de tarefas 10/04/2024</a>
+* <a>Relatório de tarefas 17/04/2024</a>
 
 
 ## Gerenciamento de Riscos
