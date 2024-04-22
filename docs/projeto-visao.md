@@ -16,11 +16,11 @@
 | Sprint 1| Visão Geral do Produto, Definição de Abordagem, Ciclo de Vida e Processo de Desenvolvimento, Organização do Projeto, Tecnologias, Planejamento | 02/04/2024 | 18/04/2024 |
 | **Entrega**  | Documentação | |
 | Sprint 2| MVP e Planejamento do Projeto, Definição das US, Backlog do produto. | 25/04/2024 | 09/05/2024 |
-| **Entrega**  | Documentação | |
+| **Entrega**  | Documentação, Backlog, Us, MVP | |
 | Sprint 3| Protótipos, Módulo de autenticação e criação de Usuários, Módulo de grupos. | 09/05/2024 | 23/05/2024 |
-| **Entrega**  | Documentação | |
+| **Entrega**  | Módulo de Autenticação, Criaçao de usuarios e Módulo de grupos | |
 | Sprint 4| Protótipos, Formular Gamificação, Módulo de Atividades.             | 23/05/2024 | 06/06/2024 |
-| **Entrega**  | Documentação | |
+| **Entrega**  | Gamificação, Módulo de atividades | |
 | Sprint 5| Protótipos, Módulo de correção.                                     | 06/06/2024 | 20/06/2024 |
 | **Entrega**  | Documentação | |
 | Sprint 6| Protótipos.                                                         | 06/06/2024 | 20/06/2024 |
