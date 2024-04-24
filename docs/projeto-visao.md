@@ -5,8 +5,8 @@
 | Desenvolvedor             | Codificar o produto, codificar testes unitários, realizar refatoração                        | Fabricio            | Gustavo, Caio, Arthur, Nicollas, Rayene, Manoel e Fabricio 
 | Designer                  | Prototipação no Figma, UX/UI                       | Fabricio            | Fabricio, Gustavo, Arthur 
 | Dono do Projeto           | Atualizar o escopo do produto, organizar o escopo das sprints, validar as entrega                       | Gustavo            | Caio,  Nicollas e Gustavo 
-| Engenheiro de Requisitos  | Elicitação e descoberta, Análise e Consenso, Comunicar Requisitos ao cliente, Representação, Verificação e Validação, Organização e Atualização                     | Manoel            | Gustavo, Caio, Arthur, Nicollas, Rayene, Manoel e Fabricio 
-| Análista de Qualidade     | Garantir a qualidade do produto, garantir o cumprimento do conceito de pronto, realizar inspeções de código                        | Arthur            | Rayene, Manoel e Arthur 
+| Engenheiro de Requisitos  | Elicitação e descoberta, Análise e Consenso, Comunicar Requisitos ao cliente, Representação, Verificação e Validação, Organização e Atualização                     | Manoel            | Luan Mateus, Gustavo, Caio, Arthur, Nicollas, Rayene, Manoel e Fabricio 
+| Análista de Qualidade     | Garantir a qualidade do produto, garantir o cumprimento do conceito de pronto, realizar inspeções de código                        | Arthur            | Luan Mateus, Rayene, Manoel e Arthur 
 | Cliente                   | Comunicar as expectativas para o projeto, incluindo especificações técnicas e funcionalidades desejadas. Além de realizar a revisão e aceitação das entregas do projeto.    | Prof. da Disciplina de Orientação a Objetos            | Prof. da Disciplina de Orientação a Objetos 
 
 ## Planejamento das Fases e/ou Iterações do Projeto
