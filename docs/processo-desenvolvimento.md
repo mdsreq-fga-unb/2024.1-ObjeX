@@ -42,16 +42,24 @@ o ScrumXP é uma abordagem que combina a gestão de projeto do Scrum com as prá
 
 ## Atividades de Requisitos
 
-* Planning (Planejamento):
-    **Elicitação e Descoberta**: Durante esta fase inicial, realizamos reuniões com o cliente e sessões de brainstorming para identificar e entender as necessidades e requisitos iniciais do projeto. Isso nos permite definir os RFs e RNFs iniciais e obter uma compreensão geral do escopo do projeto.
+### Planning (Planejamento):
 
-* Execution (Execução):
-    **Análise e Consenso**: Aqui, o feedback obtido durante a eliciação é analisado em detalhes. Os requisitos são refinados com base nas informações coletadas, e são propostas sugestões de funcionalidades específicas. O objetivo é chegar a um consenso sobre os requisitos finais que atendam às necessidades do cliente.
-    **Declaração**: Após a análise, os requisitos refinados são formalizados nesta fase. Isso inclui a documentação detalhada dos RFs, temas, épicos e histórias de usuário. Esta é a etapa onde os requisitos são especificados de forma clara e completa.
+- **Elicitação e Descoberta:** Durante esta fase inicial, realizamos reuniões com o cliente e sessões de brainstorming para identificar e entender as necessidades e requisitos iniciais do projeto. Isso nos permite definir os RFs e RNFs iniciais e obter uma compreensão geral do escopo do projeto.
 
-* Review (Revisão):
-    **Verificação e Validação**: Uma vez especificados, os requisitos passam por uma revisão detalhada para garantir sua precisão, completude e consistência. O feedback contínuo é incorporado ao processo através de revisões regulares dos requisitos e da validação com os stakeholders.
+### Execution (Execução):
 
-* Representação: Durante todo o processo, os requisitos podem ser representados por meio de prototipagem rápida. Isso permite uma visualização mais tangível e uma melhor compreensão dos requisitos por parte dos stakeholders.
+- **Análise e Consenso:** Aqui, o feedback obtido durante a elicitação é analisado em detalhes. Os requisitos são refinados com base nas informações coletadas, e são propostas sugestões de funcionalidades específicas. O objetivo é chegar a um consenso sobre os requisitos finais que atendam às necessidades do cliente.
+  
+- **Declaração:** Após a análise, os requisitos refinados são formalizados nesta fase. Isso inclui a documentação detalhada dos RFs, temas, épicos e histórias de usuário. Esta é a etapa onde os requisitos são especificados de forma clara e completa. 
 
-* Organização e Atualização: Por fim, os requisitos são organizados e atualizados continuamente ao longo do desenvolvimento. Isso pode ser feito através de um Kanban (Scrum board) ou outras ferramentas de gerenciamento de projetos, garantindo que os requisitos sejam gerenciados de forma eficaz e priorizados conforme necessário.
+### Review (Revisão):
+
+- **Verificação e Validação:** Uma vez especificados, os requisitos passam por uma revisão detalhada para garantir sua precisão, completude e consistência. O feedback contínuo é incorporado ao processo através de revisões regulares dos requisitos e da validação com os stakeholders.
+
+### Representação: 
+
+Durante todo o processo, os requisitos podem ser representados por meio de prototipagem rápida. Isso permite uma visualização mais tangível e uma melhor compreensão dos requisitos por parte dos stakeholders.
+
+### Organização e Atualização:
+
+Por fim, os requisitos são organizados e atualizados continuamente ao longo do desenvolvimento. Isso pode ser feito através de um Kanban (Scrum board) ou outras ferramentas de gerenciamento de projetos, garantindo que os requisitos sejam gerenciados de forma eficaz e priorizados conforme necessário.
