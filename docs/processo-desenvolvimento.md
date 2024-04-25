@@ -44,7 +44,7 @@ o ScrumXP é uma abordagem que combina a gestão de projeto do Scrum com as prá
 
 ### Planning (Planejamento):
 
-- **Elicitação e Descoberta:** Durante esta fase inicial, realizamos reuniões com o cliente e sessões de brainstorming para identificar e entender as necessidades e requisitos iniciais do projeto. Isso nos permite definir os RFs e RNFs iniciais e obter uma compreensão geral do escopo do projeto.
+- **Elicitação e Descoberta:** Durante esta fase inicial, realizamos reuniões com o cliente e sessões de brainstorming para identificar e entender as necessidades e requisitos iniciais do projeto. Isso nos permitiu definir os RFs e RNFs iniciais e obter uma compreensão geral do escopo do projeto.
 
 ### Execution (Execução):
 
@@ -54,12 +54,12 @@ o ScrumXP é uma abordagem que combina a gestão de projeto do Scrum com as prá
 
 ### Review (Revisão):
 
-- **Verificação e Validação:** Uma vez especificados, os requisitos passam por uma revisão detalhada para garantir sua precisão, completude e consistência. O feedback contínuo é incorporado ao processo através de revisões regulares dos requisitos e da validação com os stakeholders.
+- **Verificação e Validação:** Uma vez especificados, os requisitos passarão por uma revisão detalhada para garantir sua precisão, completude e consistência. O feedback contínuo é incorporado ao processo através de revisões regulares dos requisitos e da validação com o cliente a cada iteração.
 
 ### Representação: 
 
-Durante todo o processo, os requisitos podem ser representados por meio de prototipagem rápida. Isso permite uma visualização mais tangível e uma melhor compreensão dos requisitos por parte dos stakeholders.
+Durante todo o processo, os requisitos serão representados por meio de prototipagem rápida. Isso permite uma visualização mais tangível e uma melhor compreensão dos requisitos por parte do cliente.
 
 ### Organização e Atualização:
 
-Por fim, os requisitos são organizados e atualizados continuamente ao longo do desenvolvimento. Isso pode ser feito através de um Kanban (Scrum board) ou outras ferramentas de gerenciamento de projetos, garantindo que os requisitos sejam gerenciados de forma eficaz e priorizados conforme necessário.
+Por fim, os requisitos serão organizados e atualizados continuamente ao longo do desenvolvimento. Isso será feito através de um Kanban (Scrum board) em uma ferramenta de gerenciamento de projetos como o GitHub Projects, garantindo que os requisitos sejam gerenciados de forma eficaz e priorizados corretamente.
