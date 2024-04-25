@@ -6,7 +6,7 @@ Search open/closed issues before submitting since someone might have pushed the 
 
 # Pull Request
 
-## 📖 Description
+## 📖 Descrição
 
 <!---
 Provide some background and a description of your work.
@@ -18,20 +18,9 @@ Provide some background and a description of your work.
 * List and link relevant issues here.
 -->
 
-## 👩‍💻 Reviewer Notes
+## 👩‍💻 Review
 
 <!---
 Provide some notes for reviewers to help them provide targeted feedback.
 -->
 
-## 📑 Test Plan
-
-<!---
-Please provide a summary of the tests affected by this work and any unique strategies employed in testing the features/fixes.
--->
-
-## ⏭ Next Steps
-
-<!---
-If there is relevant follow-up work to this PR, please list any existing issues or provide brief descriptions of what you would like to do next.
--->
