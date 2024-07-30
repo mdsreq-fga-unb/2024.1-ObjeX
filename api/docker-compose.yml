@@ -1,0 +1,31 @@
+services:
+  api:
+    container_name: api
+    build: .
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - .:/user/app
+      - /user/app/node_modules
+    ports:
+      - "3000:3000"
+    command: npm run dev
+    depends_on:
+      - db
+  db:
+    container_name: db
+    image: mongo
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "27017:27017"
+    volumes:
+      - dbdata-volume:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+volumes:
+  dbdata-volume:
