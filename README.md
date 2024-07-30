@@ -8,7 +8,7 @@ O ObjeX é uma plataforma web de aprendizado gamificado projetada para promover 
   💻 Tecnologias
 </h2>
 
-[![Tecnologias](https://skillicons.dev/icons?i=js,react,django,python,postgres,mongodb)](https://skillicons.dev)
+[![Tecnologias](https://skillicons.dev/icons?i=js,react,nodejs,mongodb)](https://skillicons.dev)
 
 <h2>
     👨‍💻 Integrantes
