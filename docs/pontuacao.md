@@ -10,7 +10,7 @@ Refere-se à importância ou impacto que uma história de usuário terá para o 
 Tabela 1 - Pontuação de Valor de Negócio
 
 
-|  |                           |
+| Pontuação |             Valor de Negócio              |
 |--|--                         |
 |1 |Valor de negócio Baixo     |
 |2 |Valor de negócio Médio     |
@@ -27,7 +27,8 @@ A dificuldade mede o esforço necessário para implementar uma história de usu�
 <center>
 
 Tabela 2 - Pontuação de Dificuldade
-|  |                    |
+
+| Pontuação  |           Dificuldade         |
 |--|--                  |
 |1 |Muito Difícil       |
 |2 |Médio               |
@@ -46,9 +47,9 @@ Por exemplo, na tabela, a história de usuário "US01" tem um valor de negócio 
 
 Tabela 3 - Pontuação das User Stories
 
-|     |                  |             |           |
+
+|  US   | Valor de Negócio | Dificuldade | Pontuação |
 |-    |-                 |-            |-          |
-|     | Valor de Negócio | Dificuldade | Pontuação |
 |US01 | 4                | 3           | 7         |
 |US05 | 4                | 3           | 7         |
 |US13 | 4                | 3           | 7         |
