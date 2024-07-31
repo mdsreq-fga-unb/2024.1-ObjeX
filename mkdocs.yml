@@ -84,6 +84,7 @@ nav:
   - Missão 2:
     - Entregas: entrega-missao2.md
     - SAFe: missao2-safe.md
+    - Critérios de Aceitação: missao2-criterios-aceitacao.md
 
 copyright: |
   REQ-2024.1 <a href="https://github.com/mdsreq-fga-unb/2024.1-ObjeX"  target="_blank" rel="noopener">CyberHunterz</a>
