@@ -82,7 +82,4 @@ Tabela 3 - Pontuação das User Stories
 |US11 | 1                | 3           | 4         |
 |US03 | 2                | 1           | 3         |
 
-
-
-
 </center>
