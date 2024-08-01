@@ -1,7 +1,3 @@
-## Requisitos Não Funcionais
-
-### Introdução
-
 Requisitos não funcionais são critérios que definem as características e restrições que um sistema ou software deve possuir, além das suas funcionalidades. Eles se concentram em aspectos que não estão diretamente relacionados às operações específicas do sistema, mas são cruciais para garantir seu desempenho, segurança, usabilidade e eficiência.
 
 ### Objetivo
