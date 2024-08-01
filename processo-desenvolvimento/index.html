@@ -1,0 +1,1346 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../produto-tecnologias/">
+      
+      
+        <link rel="next" href="../projeto-visao/">
+      
+      
+      <link rel="icon" href="../assets/logo1.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
+    
+    
+      
+        <title>Processo de Desenvolvimento de Software - ObjeX</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#abordagem-agil" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href=".." title="ObjeX" class="md-header__button md-logo" aria-label="ObjeX" data-md-component="logo">
+      
+  <img src="../assets/logo1.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ObjeX
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Processo de Desenvolvimento de Software
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="green"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartilhar" aria-label="Compartilhar" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mdsreq-fga-unb/2024.1-ObjeX" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2024.1-ObjeX
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  História da Facção
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../produto-problema/" class="md-tabs__link">
+          
+  
+    
+  
+  Visão Geral do Produto
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Processo de Desenvolvimento de Software
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../projeto-visao/" class="md-tabs__link">
+        
+  
+    
+  
+  Visão Geral do Projeto
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../entrega-missao1/" class="md-tabs__link">
+          
+  
+    
+  
+  Missão 1
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../missao2-safe/" class="md-tabs__link">
+          
+  
+    
+  
+  Missão 2
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ObjeX" class="md-nav__button md-logo" aria-label="ObjeX" data-md-component="logo">
+      
+  <img src="../assets/logo1.png" alt="logo">
+
+    </a>
+    ObjeX
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mdsreq-fga-unb/2024.1-ObjeX" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2024.1-ObjeX
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    História da Facção
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Visão Geral do Produto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Visão Geral do Produto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../produto-problema/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Problema
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../produto-posicao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Declaração de Posição do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../produto-objetivos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Objetivos do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../produto-tecnologias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tecnologias a Serem Utilizadas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Processo de Desenvolvimento de Software
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Processo de Desenvolvimento de Software
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abordagem-agil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abordagem Ágil:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ciclo-de-vida-agil-iterativo-e-incremental" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ciclo de Vida: Ágil (Iterativo e Incremental)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#processo-scrumxp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Processo: ScrumXP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atividades-de-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Atividades de Requisitos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Atividades de Requisitos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elicitacao-e-descoberta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elicitação e Descoberta:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-consenso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Análise e Consenso:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#declaracao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Declaração:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verificacao-e-validacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verificação e Validação:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#representacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representação:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizacao-e-atualizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização e Atualização:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projeto-visao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão Geral do Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Missão 1
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Missão 1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entrega-missao1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Entregas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licoes-missao1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lições Aprendidas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Missão 2
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Missão 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../missao2-safe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SAFe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../missao2-criterios-aceitacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Critérios de Aceitação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rnf/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos Não Funcionais
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pontuacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pontuação e Priorização de US's
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../missao2-mvp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MVP
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entrega-missao2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vídeo da Entraga
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../licoes-missao2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lições Aprendidas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abordagem-agil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abordagem Ágil:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ciclo-de-vida-agil-iterativo-e-incremental" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ciclo de Vida: Ágil (Iterativo e Incremental)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#processo-scrumxp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Processo: ScrumXP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atividades-de-requisitos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Atividades de Requisitos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Atividades de Requisitos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elicitacao-e-descoberta" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elicitação e Descoberta:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-e-consenso" class="md-nav__link">
+    <span class="md-ellipsis">
+      Análise e Consenso:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#declaracao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Declaração:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verificacao-e-validacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verificação e Validação:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#representacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representação:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#organizacao-e-atualizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Organização e Atualização:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Processo de Desenvolvimento de Software</h1>
+
+<h2 id="abordagem-agil">Abordagem Ágil:</h2>
+<p>Considerando que nossa ferramenta será uma peça fundamental no ambiente de trabalho do cliente, é essencial mantermos um fluxo de feedback contínuo. A comunicação informal é favorecida devido ao envolvimento prévio de um dos nossos integrantes com o cliente, além do contexto de equipe reduzida. </p>
+<p>Dada a restrição de tempo e a necessidade de adaptação rápida às demandas e preferências do cliente, a abordagem Ágil emerge como a escolha mais apropriada. Essa metodologia nos permite ser flexíveis e ágeis na entrega de valor, ajustando-nos de maneira eficaz às mudanças e às especificidades do projeto. </p>
+<p><img _="," alt="Abordagem Agil" src="../assets/agile.png" style="height:auto" width="100%" /></p>
+<h2 id="ciclo-de-vida-agil-iterativo-e-incremental">Ciclo de Vida: Ágil (Iterativo e Incremental)</h2>
+<p>No contexto do ciclo de vida ágil, adotamos uma abordagem iterativa e incremental que se alinha perfeitamente com as necessidades de acesso antecipado do cliente a funcionalidades específicas, mesmo antes da conclusão final do software. </p>
+<p>Destacamos a participação ativa do cliente com Feedback como um pilar fundamental. A colaboração entre o grupo e cliente é maximizada, permitindo um entendimento mais profundo das necessidades em evolução e aprimorando a capacidade de adaptação do produto às expectativas em constante mudança. </p>
+<p>Essa abordagem promove não apenas um maior alinhamento entre as partes envolvidas, mas também permite a entrega de valor de forma progressiva e tangível ao longo do ciclo de desenvolvimento, garantindo que o software evolua de maneira colaborativa e eficiente para atender às necessidades e expectativas do cliente. </p>
+<h2 id="processo-scrumxp">Processo: ScrumXP</h2>
+<p>o ScrumXP é uma abordagem que combina a gestão de projeto do Scrum com as práticas técnicas do eXtreme Programming (XP), oferecendo um ambiente propício para a flexibilidade, feedback constante, ritmo de entrega sustentável e entregas constantes e incrementais. </p>
+<ul>
+<li>
+<p>Flexibilidade dos Requisitos: O ScrumXP permite a flexibilidade dos requisitos ao adotar ciclos curtos de desenvolvimento (sprints), nos quais os requisitos podem ser ajustados e priorizados de acordo com as necessidades do cliente e as condições do mercado em constante mudança. </p>
+</li>
+<li>
+<p>Feedback Constante: Com o ScrumXP, o feedback contínuo é incorporado ao processo através de revisões frequentes de incrementos do produto e cerimônias como reuniões diárias (daily stand-ups), revisões de sprint e retrospectivas. Isso garante que a equipe esteja sempre alinhada com as expectativas dos stakeholders e possa realizar ajustes rapidamente. </p>
+</li>
+<li>
+<p>Ritmo de Entrega: A metodologia ScrumXP promove um ritmo de entrega consistente e previsível, com a conclusão de incrementos de produto funcionais no final de cada sprint. Isso permite que a equipe entregue valor de forma regular ao longo do tempo, mantendo um fluxo de trabalho estável e eficiente. </p>
+</li>
+<li>
+<p>Práticas de Testes Integradas: No ScrumXP, os testes são incorporados desde o início do desenvolvimento. A metodologia promove o desenvolvimento orientado por testes (TDD - Test-Driven Development), onde os testes são escritos antes da implementação do código. Isso garante que cada incremento de funcionalidade seja acompanhado por testes automatizados que validam seu comportamento esperado.</p>
+</li>
+</ul>
+<p><img _="," alt="Srum" src="../assets/scrum.jpg" style="height:auto" width="100%" /></p>
+<table>
+<thead>
+<tr>
+<th>Nome da Atividade</th>
+<th>Método</th>
+<th>Ferramentas</th>
+<th>Entrega</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Elicitação e Descoberta</td>
+<td>Reunião com o Cliente, Brainstorming</td>
+<td>Google Meet, Google Docs</td>
+<td>Definir RFs e RNFs iniciais e entendimento geral do projeto.</td>
+</tr>
+<tr>
+<td>Análise e Consenso</td>
+<td>Feedback</td>
+<td>Google Meet, Google Docs</td>
+<td>Refinar RFs e RNFs finais e sugestão de funcionalidades.</td>
+</tr>
+<tr>
+<td>Declaração</td>
+<td>Feedback, Tema, Épicos e Histórias de Usuário</td>
+<td>Google Meet, Google Sheets</td>
+<td>Especificação dos RFs e Histórias de Usuário.</td>
+</tr>
+<tr>
+<td>Representação</td>
+<td>Prototipação rápida</td>
+<td>Figma</td>
+<td>Protótipo básico.</td>
+</tr>
+<tr>
+<td>Verificação e Validação</td>
+<td>Feedback</td>
+<td>Github Projects</td>
+<td>Backlog e Priorização de RFs.</td>
+</tr>
+<tr>
+<td>Organização e Atualização</td>
+<td>Kanban (Scrum board)</td>
+<td>Github Projects</td>
+<td>Backlog e Priorização de RFs.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="atividades-de-requisitos">Atividades de Requisitos</h2>
+<h3 id="elicitacao-e-descoberta"><strong>Elicitação e Descoberta:</strong></h3>
+<p>Durante esta fase inicial, realizamos reuniões com o cliente e sessões de brainstorming para identificar e entender as necessidades e requisitos iniciais do projeto. Isso nos permitiu definir os RFs e RNFs iniciais e obter uma compreensão geral do escopo do projeto. Durante as iterações pode ocorrer a adição ou correção de algum RF ou RNF de acordo com as necessidades do projeto.</p>
+<h3 id="analise-e-consenso"><strong>Análise e Consenso:</strong></h3>
+<p>Aqui, o feedback obtido durante a elicitação é analisado em detalhes. Os requisitos são refinados com base nas informações coletadas, e são propostas sugestões de funcionalidades específicas. O objetivo é chegar a um consenso sobre os requisitos finais que atendam às necessidades do cliente.</p>
+<h3 id="declaracao"><strong>Declaração:</strong></h3>
+<p>Após a análise, os requisitos refinados são formalizados nesta fase. Isso inclui a documentação detalhada dos RFs, temas, épicos e histórias de usuário. Esta é a etapa onde os requisitos são especificados de forma clara e completa. </p>
+<h3 id="verificacao-e-validacao"><strong>Verificação e Validação:</strong></h3>
+<p>Uma vez especificados, os requisitos passarão por uma revisão detalhada para garantir sua precisão, completude e consistência. O feedback contínuo é incorporado ao processo através de revisões regulares dos requisitos e da validação com o cliente a cada iteração. E também serão desenvolvidos testes de software para ajudar na validação dos requisitos do sistema.</p>
+<h3 id="representacao"><strong>Representação:</strong></h3>
+<p>Durante todo o processo, os requisitos serão representados por meio de prototipagem rápida. Isso permite uma visualização mais tangível e uma melhor compreensão dos requisitos por parte do cliente.</p>
+<h3 id="organizacao-e-atualizacao"><strong>Organização e Atualização:</strong></h3>
+<p>Por fim, os requisitos serão organizados e atualizados continuamente ao longo do desenvolvimento. Isso será feito através de um Kanban (Scrum board) em uma ferramenta de gerenciamento de projetos como o GitHub Projects, garantindo que os requisitos sejam gerenciados de forma eficaz e priorizados corretamente.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../produto-tecnologias/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Tecnologias a Serem Utilizadas">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Tecnologias a Serem Utilizadas
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../projeto-visao/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Visão Geral do Projeto">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Visão Geral do Projeto
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      REQ-2024.1 <a href="https://github.com/mdsreq-fga-unb/2024.1-ObjeX"  target="_blank" rel="noopener">CyberHunterz</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/mdsreq-fga-unb/2024.1-ObjeX" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "announce.dismiss", "content.tooltips", "navigation.footer", "navigation.indexes", "navigation.tracking", "search.share", "toc.follow"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>
