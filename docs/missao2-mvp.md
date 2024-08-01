@@ -54,10 +54,10 @@ O conceito de MVP (Minimum Viable Product), ou Produto Mínimo Viável, é funda
 
 | Épico |  US   | Descrição |
 |- |-    |-                           |
-| EP01 - Professor |US16 |Eu como professor, quero ser capaz de criar uma turma, para que os Alunos possam ser inseridos|
-| EP01 - Professor|US17 |  Eu como professor, quero ser capaz de visualizar uma turma, para verificar os alunos nela inseridos|
-| EP01 - Professor|US18 |  Eu como professor, quero ser capaz de deletar uma turma, para caso ela não seja necessária|
-| EP01 - Professor|US19 | Eu como professor, quero ser capaz de criar um aluno, para que ele possa exercer suas funções|
-| EP03 - Alunos|US37 |Eu como professor, quero ser capaz de visualizar os alunos, para verificar suas informações|
+| EP01 - Professor |US16 |Eu como professor, quero ser capaz de disponibilizar conteúdo sobre a matéria na plataforma |
+| EP01 - Professor|US17 |  Eu como professor, quero ser capaz de visualizar um conteúdo inserido na plataforma|
+| EP01 - Professor|US18 |  Eu como professor, quero ser capaz de editar um conteúdo, para mudar as informações|
+| EP01 - Professor|US19 |  Eu como professor, quero ser capaz de deletar um conteúdo|
+| EP03 - Alunos|US37 |Eu como aluno desejo visualizar  conteúdos disponibilizados pelo professor e fazer o download|
 
 </center>
