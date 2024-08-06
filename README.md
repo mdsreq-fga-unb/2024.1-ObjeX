@@ -8,7 +8,7 @@ O ObjeX é uma plataforma web de auxilio ao professor projetada para promover a 
   💻 Tecnologias
 </h2>
 
-[![Tecnologias](https://skillicons.dev/icons?i=js,react,nodejs,mongodb)](https://skillicons.dev)
+[![Tecnologias](https://skillicons.dev/icons?i=js,react,nodejs,mongodb,firebase)](https://skillicons.dev)
 
 <h2>
     👨‍💻 Integrantes
