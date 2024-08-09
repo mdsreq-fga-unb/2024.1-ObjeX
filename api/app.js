@@ -8,9 +8,7 @@ const connectDB = require('./config/db');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: '*' , credentials :  true}));
-// app.get('/', (req, res) => {
-//     res.send('RECEBA');
-// });
+
 app.use('', require('./routes/Router'));
 
 connectDB();
