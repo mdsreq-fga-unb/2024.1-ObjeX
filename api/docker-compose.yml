@@ -6,26 +6,28 @@ services:
     env_file:
       - .env
     volumes:
-      - .:/user/app
-      - /user/app/node_modules
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
     ports:
-      - "3000:3000"
-    command: npm run dev
+      - "${API_PORT}:${API_PORT}"
+    command: npm run server
     depends_on:
       - db
   db:
     container_name: db
     image: mongo
     restart: always
+    command: mongod --port ${DB_PORT}
     env_file:
       - .env
     ports:
-      - "27017:27017"
+      - "${DB_PORT}:${DB_PORT}"
     volumes:
       - dbdata-volume:/data/db
     environment:
       MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
       MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
       MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+
 volumes:
   dbdata-volume:
